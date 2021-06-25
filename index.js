@@ -16,8 +16,8 @@ async function main() {
     const links = await page.$$(".post-title-link");
     links[0].click()
     console.log('links',links)
-    // await page.close();
-    // await browser.close();
+    await page.close();
+    await browser.close();
 }
 
 main()
