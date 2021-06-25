@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo nihoa"
+    "test": "echo nihoa",
+    "test2":"node index.js"
   },
   "repository": {
     "type": "git",
